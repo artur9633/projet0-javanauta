@@ -3,12 +3,13 @@
 public class Main {
     public static void main(String[] args) {
 
-
+    long qtCachorros = 10L;
     int idade= 34;
     double salarioMensal = 5000.00;
     char genero= 'M';
     boolean empregadoJava = true;
 
+        System.out.println("qtCachorros: " + qtCachorros);
         System.out.println("idade: " + idade);
         System.out.println("salarioMensal: " + salarioMensal);
         System.out.println("genero: " + genero);
